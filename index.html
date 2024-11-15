@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e6e7384533.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/Name.png" class="logo"> 
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+        </nav>
+        <div class="header-text">
+            <p>Cloud Computing Student</p>
+            <h1>Hi, I'm <span> HIMAS </span><br>From Srilanka</h1>
+        </div>
+    </div>
+</div>
+
+<!-- ----about---- -->                                
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/20221105_114144-removebg-preview.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello! I am a dedicated Cloud Computing student at SLTC Research University, with a strong interest in technology and programming, Linux. 
+                    My skill set includes Python development and AWS , Linux.
+                    <br>
+                    <br>
+
+                    I am passionate about solving complex problems and creating efficient, user-friendly applications. 
+                    While my primary focus is on Python and AWS, I also have a foundational knowledge of Java programming. 
+                    I am always eager to learn new technologies and improve my skills, working towards building a robust career in Cloud Computing.
+                    <br>
+                    <br>
+                    Thank you for visiting my portfolio, and feel free to explore my projects and reach out if you'd like to connect!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experince')">Experince</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Cloud Computing</span><br>Passionate first-year Cloud Computing student with skills in Python, AWS, and basic Java. Eager to learn and build innovative solutions in technology</li>
+                            <br>
+                            <li><span>Python</span><br>Creating Logical Fuctions and Data Science</li>
+                            <br>
+                            <br>
+                            <li><span>Java Programming</span><br>beginner level, I've learned key concept such as object-oriented programming, basic data structures, and essential syntax</li>
+                            <br>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experince">
+                        <ul>
+                            <li><span> Freelancer </span><br>As a professional Web diginer trained at the Webcode's</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 - Current</span><br>SLTC Research University Srilanka</li>
+                            <li><span>2020 - 2023 A/L </span><br>Sammanthurai Muslim Madhya Maha Vidyalaya (National School)</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----services---- --> 
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Assionate and skilled web developer with a strong foundation in HTML, CSS, and JavaScript, alongside hands-on experience in building dynamic, 
+                    user-centered websites. Known for meticulous attention to detail and creativity, I bring technical expertise to every project, 
+                    from responsive design to interactive features. Eager to leverage my knowledge in Python, Java, and modern web development practices to create impactful, engaging digital experiences.</p><br>
+                    <a href="#"> Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Development</h2>
+                <p>With a solid foundation in software and web development, I bring experience in building responsive and user-friendly applications. 
+                    My background includes proficiency in Python, HTML, CSS, JavaScript, and Java, along with knowledge of database design and data visualization. 
+                    I’m capable of creating interactive and functional applications tailored to user needs, applying best practices in UX/UI design and code optimization.</p>
+                    <a href="#"> Learn more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-keyboard"></i>
+                <h2>Grapics desinger</h2>
+                <p>With advanced proficiency in Grapics applications, I specialize in accurate and efficient Grapics . I am skilled in Adobe Photosop, 
+                    and Access, enabling me to create structured images.</p>
+                    <a href="#"> Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----portfolio---- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work-1.png">
+                <div class="layer">
+                    <h3> UI & UX </h3>
+                    <p>This project focused on creating a productivity tool that helps users organize tasks, 
+                        set deadlines, and track progress. The app was designed with a clean, intuitive interface 
+                        to keep users engaged and improve productivity.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-2.png">
+                <div class="layer">
+                    <h3> Dashboard design</h3>
+                    <p>This project involved building a comprehensive sales and inventory tracking
+                         system using Microsoft Excel. The primary objective was to streamline 
+                         data management for a retail company and provide visual insights into 
+                         sales trends, product  stock levels, and overall performance.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-3.png">
+                <div class="layer">
+                <h3>Fornt End digine</h3>
+                    <p>This project involved designing and building a fully functional blog website with dynamic content features. 
+                        The aim was to create a platform for users to browse, read, and interact with blog posts on various topics, 
+                        with a user-friendly interface and responsive design.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----contact---- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> mohammedhimas5124@gmail.com </p>
+                <p> <i class="fa-solid fa-square-phone"></i> 0775017449</p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/mohammed.himas.161"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/mohammed-himas-b977682b0/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/iam.himas/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name=Email" placeholder="Your E-mail" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Himas</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    } 
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right ="0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+        
+    }
+</script>
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzs7KOk6aMkbGdrRiCtxExZYFZUjREPsDUGoAzM274_Id8z12YyXwrvxk714hssj4MO/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(() => {
+                msg.innerHTML = ""
+            },5000 );
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
